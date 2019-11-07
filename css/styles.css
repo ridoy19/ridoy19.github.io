@@ -9,6 +9,8 @@ html {
     padding: 0%;
     overflow: auto;
     background: url(../images/background.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
 
 }
 
@@ -66,10 +68,12 @@ html {
 
 .columnright img {
     width: 180px;
-    margin-left: 260px;
+    margin-left: 360px;
     margin-top: 50px;
     border-radius: 50%;
+    text-align: center;
 }
+
 
 .columnright .name h1{
     text-align: center;
@@ -109,12 +113,12 @@ hr {
 }
 
 .social-profile {
-    margin-left: 225px;
+    margin-left: 325px;
 }
 
 .columnright .social-profile .fa-2x {
     color: var(--text-color);
-    margin: 5px 2px;
+    margin: 7px 2px;
     padding: 4px 2px;
     align-content: center;
     background: #252525;
@@ -123,8 +127,6 @@ hr {
     vertical-align: bottom;
     border-radius: 6px;
 }
-
-
 
 .columnright .social-profile .fa-github:hover {
     background:  black;
@@ -150,4 +152,5 @@ hr {
     background: #f10d0d; 
     ;
 }
+
 
