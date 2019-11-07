@@ -1,0 +1,153 @@
+* { 
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    box-sizing: border-box;
+    
+}
+
+html {
+    margin: 0%;
+    padding: 0%;
+    overflow: auto;
+    background: url(../images/background.jpg);
+
+}
+
+:root {
+    --elem-back-color:  #03d5e2 ;
+    --active-color:  #022d67 ;
+    --text-color: #fff; 
+    --hover-color: #00859c;
+}
+
+.row {
+    margin: 8% 15%;
+    
+}
+
+.column-one.left {
+    float: left;
+    padding-right: 3rem;
+}
+
+.nav ul{
+    list-style-type: none;
+    display: inline-block;
+    width: 200px;
+    margin: 0%;
+    padding: 0%;
+    background-color: rgba(0, 133, 156, 0.4);
+    
+}
+
+.nav li a{
+    text-decoration: none;
+    color: var(--text-color);
+    padding: 12px 16px;
+    display: block;
+    font-size: 16px;
+    font-weight: bold; 
+}
+
+
+.nav li a.active {
+    background-color: var(--active-color);
+}
+
+.nav li a:hover:not(.active) {
+    background-color: rgba(3, 213, 226, 0.6);
+}
+
+.card {
+    background: rgba(248, 246, 246,0.4);
+    border-radius: 8px;
+    float: right;
+    width: 73%;
+}
+
+.columnright img {
+    width: 180px;
+    margin-left: 260px;
+    margin-top: 50px;
+    border-radius: 50%;
+}
+
+.columnright .name h1{
+    text-align: center;
+    padding: 2%;
+    margin: 0%;
+}
+
+.name h5{
+    text-align: center;
+    letter-spacing: 5px;
+    padding: 0%;
+    margin: 0%;
+}
+
+.columnright .name span {
+    color: var(--elem-back-color);
+    letter-spacing: 3px;
+}
+
+hr {
+   width: 250px;
+   padding: 0;
+}
+
+.columnright .desc p {
+    text-align: center;
+}
+
+.columnright .semi-contact {
+    text-align: center;
+    background-color: var(--elem-back-color);
+    padding: 2px 3px;
+    font-weight: 600;
+    color: var(--text-color);
+    margin: 9px 45px;
+    border-radius: 8px;
+}
+
+.social-profile {
+    margin-left: 225px;
+}
+
+.columnright .social-profile .fa-2x {
+    color: var(--text-color);
+    margin: 5px 2px;
+    padding: 4px 2px;
+    align-content: center;
+    background: #252525;
+    width: 36px;
+    text-align: center;
+    vertical-align: bottom;
+    border-radius: 6px;
+}
+
+
+
+.columnright .social-profile .fa-github:hover {
+    background:  black;
+}
+.columnright .social-profile .fa-facebook:hover {
+    background: rgb(0, 0, 136);
+}
+
+.columnright .social-profile .fa-linkedin:hover {
+    background: #076edc;
+}
+
+.columnright .social-profile .fa-quora:hover {
+    background: #860101;
+    
+}
+
+.columnright .social-profile .fa-twitter:hover {
+    background: #0d9ced; 
+}
+ 
+.columnright .social-profile .fa-youtube-play:hover {
+    background: #f10d0d; 
+    ;
+}
+
